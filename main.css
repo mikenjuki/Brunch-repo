@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(233, 232, 223);
+    background-color: #e9e8df;
 }
 
 
@@ -9,4 +9,16 @@ table tr, th, td, caption{
     border-collapse: collapse;
     padding: 0.5rem;
 
+}
+
+a {
+    color: #7e5539;
+}
+
+a:visited {
+    color: #7E769C;
+}
+
+a:hover, a:active {
+color: #96869C;
 }
