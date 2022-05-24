@@ -31,6 +31,28 @@
   <main>
       <section>
           <h2>Our Contact form</h2>
+          <form action="https://httpbin.org/get" method="get">
+              <fieldset>
+                  <legend>Send us a message</legend>
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Your" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Name" autocomplete="on" required>
+             </p>
+             <p>
+                <label for="yourMessage">Your Message:</label>
+                <br>
+                <textarea name="Message" id="Messsage" placeholder="Type your message" cols="31" rows="10"></textarea>
+             </p>
+
+             <br>
+             <input type="submit" value="Submit">
+             <input type="reset" value="Reset">
+            </fieldset>
+          </form>
       </section>
 
       <section>
